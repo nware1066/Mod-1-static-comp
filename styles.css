@@ -1,0 +1,51 @@
+.body {
+  background-color: snow;
+}
+
+.header1 {
+  height: 4em;
+  width: 100%;
+  background-color: thistle;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: end;
+  padding: 2em;
+  font-size: 1.5em;
+  font-family: Verdana;
+
+}
+
+/* .headerlink {
+  display: grid;
+  align-self: end;
+} */
+
+.header2 {
+  height: 5em;
+  width: 100%;
+  background-color: snow;
+  padding-left: 2em;
+  align-items: center;
+  /* padding-top: 3em; */
+  font-family: Verdana;
+  font-size: 2em
+}
+
+.mc-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 38em;
+  background-color: seashell;
+  border: 1px solid black;
+  box-shadow: .04em .04em .1em .2em #ccc;
+  /* place-self: center; */
+}
+
+.card-section {
+  padding:2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.3em;
+  grid-auto-rows: 30ems;
+
+}
