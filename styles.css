@@ -1,44 +1,40 @@
-.body {
-  background-color: snow;
-}
+/* .body {
+  background-color: seashell;
+} */
 
 .header1 {
   height: 4em;
-  width: 100%;
+  width: 100vw;
   background-color: thistle;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(8, .2fr 1fr);
   align-items: end;
+  margin: 0;
   padding: 2em;
   font-size: 1.5em;
-  font-family: Verdana;
-
+  font-family: Helvetica Narrow, sans-serif;
 }
 
-/* .headerlink {
-  display: grid;
-  align-self: end;
-} */
-
-.header2 {
-  height: 5em;
-  width: 100%;
-  background-color: snow;
-  padding-left: 2em;
-  align-items: center;
-  /* padding-top: 3em; */
-  font-family: Verdana;
-  font-size: 2em
+.header-link {
+  text-decoration: none;
 }
 
-.mc-card {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 38em;
+.icon {
+  height: 1.2em;
+  border: solid 1px lightblue;
+  border-radius: 50%;
+}
+
+.main {
+  width: 100vw;
   background-color: seashell;
-  border: 1px solid black;
-  box-shadow: .04em .04em .1em .2em #ccc;
-  /* place-self: center; */
+  margin: 0;
+}
+
+.title {
+  padding-left: 2em;
+  font-family: Helvetica Narrow, sans-serif;
+  font-size: 2em
 }
 
 .card-section {
@@ -47,5 +43,67 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1.3em;
   grid-auto-rows: 30ems;
+}
 
+.mc-card {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  height: 42em;
+  background-color: snow;
+  border: 1px solid black;
+  box-shadow: .04em .04em .1em .2em #ccc;
+}
+
+
+.card-header-unicorn {
+  background: center url(images/unicorn.jpg)
+}
+
+.card-header-vampire {
+  background: center url(images/vampire.jpg)
+}
+
+.card-header-wizard {
+  background: center url(images/wizard.jpg)
+}
+
+.card-header-dragon {
+  background: center url(images/dragon.jpg)
+}
+
+.card-header-werewolf {
+  background: center url(images/werewolf.jpg)
+}
+
+.card-header-medusa {
+  background: center url(images/medusa.jpg)
+}
+
+.card-header-centaur {
+  background: center url(images/centaur.jpg)
+
+}
+
+.card-header-sphinx {
+  background: center url(images/sphinx.jpg)
+}
+
+.button1 {
+  left: 10%;
+  top: 15%;
+  position: relative;
+  background-color: slategrey;
+  opacity: 30%;
+  height: 5em;
+  width: 5em;
+  border: .6px solid slategrey;
+  border-radius: 50%;
+}
+
+.link-box {
+  background-color: lightgrey;
+  width: 80%;
+  height: 4em;
+  margin-left: auto;
+  margin-right: auto;
 }
