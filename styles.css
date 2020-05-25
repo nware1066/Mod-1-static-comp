@@ -1,38 +1,45 @@
-/* .body {
+.main {
   background-color: seashell;
-} */
+  color: #A98DE2;
+}
 
 .header1 {
-  height: 4em;
-  width: 100vw;
-  background-color: thistle;
-  display: grid;
-  grid-template-columns: repeat(8, .2fr 1fr);
-  align-items: end;
+  height: 6em;
+  width: 100%;
+  background-color: #5b9aa0;
   margin: 0;
-  padding: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
   font-size: 1.5em;
   font-family: Helvetica Narrow, sans-serif;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
 }
 
 .header-link {
   text-decoration: none;
+  /* padding-bottom: 2em; */
 }
 
 .icon {
   height: 1.2em;
-  border: solid 1px lightblue;
-  border-radius: 50%;
+  /* padding-bottom: 2em; */
 }
 
 .main {
-  width: 100vw;
+  width: 100%;
   background-color: seashell;
   margin: 0;
 }
 
 .title {
   padding-left: 2em;
+  padding-top: 2em;
+  margin: 0;
   font-family: Helvetica Narrow, sans-serif;
   font-size: 2em
 }
@@ -100,10 +107,21 @@
   border-radius: 50%;
 }
 
+.creature-name {
+  margin-left: 2em;
+  font-size: 1.5em
+}
+
+.card-text {
+  margin-left: 3em;
+
+}
+
 .link-box {
-  background-color: lightgrey;
+  background-color: #d6d4e0;
   width: 80%;
   height: 4em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3em;
 }
