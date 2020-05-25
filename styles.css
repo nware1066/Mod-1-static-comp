@@ -1,19 +1,27 @@
 .main {
-  background-color: seashell;
+  background-color: lavender;
   color: #A98DE2;
 }
 
 .header1 {
-  height: 6em;
+  height: 8em;
   width: 100%;
   background-color: #5b9aa0;
   margin: 0;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 2em;
-  padding-left: 2em;
+  /* padding-left: 1em; */
   font-size: 1.5em;
   font-family: Helvetica Narrow, sans-serif;
   box-sizing: border-box;
+}
+
+.dropdown {
+  padding-left: 88%;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -27,7 +35,14 @@ li {
 
 .icon {
   height: 1.2em;
+  padding-left: 1em;
   /* padding-bottom: 2em; */
+}
+
+.logo {
+  position: absolute;
+  left: 90%;
+
 }
 
 .main {
