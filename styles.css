@@ -68,8 +68,8 @@ li {
 }
 
 .mc-card {
-  display: grid;
-  grid-template-rows: 2fr 1fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-rows: 2fr 1fr 1fr 1fr; */
   height: 42em;
   background-color: snow;
   border: 1px solid black;
@@ -78,35 +78,42 @@ li {
 
 
 .card-header-unicorn {
+  height: 15em;
   background: center url(images/unicorn.jpg)
 }
 
 .card-header-vampire {
+  height: 15em;
   background: center url(images/vampire.jpg)
 }
 
 .card-header-wizard {
+  height: 15em;
   background: center url(images/wizard.jpg)
 }
 
 .card-header-dragon {
+  height: 15em;
   background: center url(images/dragon.jpg)
 }
 
 .card-header-werewolf {
+  height: 15em;
   background: center url(images/werewolf.jpg)
 }
 
 .card-header-medusa {
+  height: 15em;
   background: center url(images/medusa.jpg)
 }
 
 .card-header-centaur {
+  height: 15em;
   background: center url(images/centaur.jpg)
-
 }
 
 .card-header-sphinx {
+  height: 15em;
   background: center url(images/sphinx.jpg)
 }
 
@@ -115,7 +122,7 @@ li {
   top: 15%;
   position: relative;
   background-color: slategrey;
-  opacity: 30%;
+  opacity: 60%;
   height: 5em;
   width: 5em;
   border: .6px solid slategrey;
@@ -128,8 +135,9 @@ li {
 }
 
 .card-text {
-  margin-left: 3em;
-
+  margin-left: 2.5em;
+  margin-right: 2.5em
+  
 }
 
 .link-box {
