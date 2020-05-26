@@ -80,50 +80,61 @@ nav {
   box-shadow: .04em .04em .1em .2em #ccc;
 }
 
+.card-header {
+  height: 15em;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  background-position: center;
+}
+
+.views-container {
+  padding: 10px;
+}
+
+.views-container h3 {
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.views-count {
+  font-size: 4vw;
+  margin: 0;
+}
 
 .card-header-unicorn {
-  height: 15em;
-  background: center url(images/unicorn.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/unicorn.jpg);
 }
 
 .card-header-vampire {
-  height: 15em;
-  background: center url(images/vampire.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/vampire.jpg);
 }
 
 .card-header-wizard {
-  height: 15em;
-  background: center url(images/wizard.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/wizard.jpg);
 }
 
 .card-header-dragon {
-  height: 15em;
-  background: center url(images/dragon.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/dragon.jpg);
 }
 
 .card-header-werewolf {
-  height: 15em;
-  background: center url(images/werewolf.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/werewolf.jpg);
 }
 
 .card-header-medusa {
-  height: 15em;
-  background: center url(images/medusa.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/medusa.jpg);
 }
 
 .card-header-centaur {
-  height: 15em;
-  background: center url(images/centaur.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/centaur.jpg);
 }
 
 .card-header-sphinx {
-  height: 15em;
-  background: center url(images/sphinx.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(images/sphinx.jpg);
 }
 
 .button1 {
-  left: 10%;
-  top: 15%;
   position: relative;
   background-color: slategrey;
   opacity: 60%;
@@ -141,7 +152,6 @@ nav {
 .card-text {
   margin-left: 2.5em;
   margin-right: 2.5em
-
 }
 
 .link-box {
@@ -152,3 +162,16 @@ nav {
   margin-right: auto;
   margin-top: 3em;
 }
+ /* media queries */
+
+ @media screen and (max-width: 1000px) {
+   .card-section {
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+
+ @media screen and (max-width: 600px) {
+   .card-section {
+      grid-template-columns: 1fr 1fr;
+   }
+ }
