@@ -27,11 +27,11 @@ I had several challenges during this project, mostly because I chose to experime
 I also had a significan problem with my git workflow, which I still do not entirely uderstand, but which resulted in having two separate projects both combined in the repository. I eventually had to delete the repo and start over. I was able to save the code, but failed to save my images, which cost additional time and stress. Altogether that was the most challenging part of the project, costing me a great deal of time and also losing my commit history for the majority of the project.
 
 Here is an image of the model that was provided for us to replicate:
-![image of form page](/images.staticComp.png)
+![image of form page](./images.staticComp.png)
 <br />
 
 And Here is an image of my attempt to recreate the layout:
-![image of form page](/images.mythicalCreat.png)
+![image of form page](./images.mythicalCreat.png)
 
 
 My github profile is: https://github.com/nware1066
